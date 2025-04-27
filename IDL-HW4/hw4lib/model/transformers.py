@@ -291,7 +291,7 @@ class EncoderDecoderTransformer(nn.Module):
             input_dim, 
             d_model, 
             time_reduction=time_reduction, 
-            method=reduction_method,
+            reduction_method=reduction_method,
             dropout = dropout
         ) # Speech embedding
 
