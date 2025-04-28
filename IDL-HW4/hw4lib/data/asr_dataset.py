@@ -1,7 +1,7 @@
 from typing import Literal, Tuple, Optional
 import os
 import numpy as np
-from tqdm import tqdm
+from tqdm.notebook import tqdm
 import torch
 from torch.utils.data import Dataset 
 from torch.nn.utils.rnn import pad_sequence
